@@ -13,7 +13,6 @@ export class ImagenService {
     let datos = new FormData();
     datos.append('nombre', nombre);
     datos.append('imagen', imagen);
-
-    return this.http.post('http://18.220.167.194/api/persona', datos);
+    return this.http.post('http://18.221.160.46/api/persona', datos);
   }
 }
